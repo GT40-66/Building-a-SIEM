@@ -25,7 +25,12 @@ Custom Log: <br/>
 Map Data:  <br/>
 <img src="<a href="https://imgur.com/BlBrz3e"><img src="https://i.imgur.com/BlBrz3e.png" height="80%" width="80%" alt="Custom Log"/>
 <br />
-
+Example of PowerShell script running with failed attempts:  <br/>
+<img src="<a href="https://imgur.com/1cgeeA5"><img src="https://i.imgur.com/1cgeeA5.png"  height="80%" width="80%" alt="Custom Log"/>
+<br />
+Log of geolocation data on the virtual machine:  <br/>
+<img src="<a href="https://imgur.com/vF3hr5i"><img src="https://i.imgur.com/vF3hr5i.png"  height="80%" width="80%" alt="Custom Log"/>
+<br />
 <!--
  ```diff
 - text in red
