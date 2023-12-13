@@ -2,7 +2,7 @@
 
 
 <h2>Description</h2>
-This project demonstrates how to utilize Microsoft Sentintel to create a graphical display of RDP attempts on a honeypot VM. The honeypot runs a Powershell script connected to a third party API to pull geolocation data that is then displayed in Sentinel to create hot spots on a world map.
+This project demonstrates how to utilize Microsoft Sentintel to create a graphical display of RDP attempts on a honeypot VM. This lab utlizes a custom PowerShell script to extract metadata from Windows Event Viewer that is forwarded to a third party API in order to retrieve geolocation data. I configured a custom log within Log Analystics Workspace in Azure to ingest the data that is linked to the ProgramData file within the VM. Custom Fields were then created in order to properly label the data. I then created a workbook within Azure Sentinel (Microsoft's cloud SIEM) to display this data and create hot spots to demonstrate number of RDP attempts per region. 
 <br />
 
 
